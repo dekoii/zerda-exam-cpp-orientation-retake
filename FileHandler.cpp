@@ -6,7 +6,7 @@ std::string Filehandler::ReadFromFile(char filename[]) {
     throw "no file provided";
   }
   if (inputfile.fail()) {
-    throw 'o':
+    throw 'o';
   }
   std::stringstream buff;
   buff << inputfile.rdbuf();
