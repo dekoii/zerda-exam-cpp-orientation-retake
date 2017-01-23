@@ -18,7 +18,7 @@ int main (int argc, char** argv) {
   }
   catch(const char* error) {
     std::cerr << error;
-    return2= 22;
+    return 22;
   }
   catch (char a) {
     std::cerr << "error while opening the file";
